@@ -6,32 +6,27 @@
     <title>SantaCloud</title>
     <link rel="stylesheet" media="all" href="style.css" />
     <link href='https://fonts.googleapis.com/css?family=Mountains of Christmas' rel='stylesheet'>
-    <link rel="shortcut icon" href="santacloud.png" />
+    <link rel="icon" type="image/png" href="santacloud-link.png">
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   </head>
+
   <body>
     <div class="fondo"></div>
+   
     <div class="context" >
       <div class="contenedorPrincipal">
-          <div class="contenido">
-              <h1 > See you soon...</h1>
-              <a href="https://x.com/SCloud88508">
-                <img class="imgSanta" src="santacloud.png" alt="Foto SantaCloud">
-              </a>
+
+              <h1 > See you soon</h1>
+
+              <model-viewer src="3d/santacloud_token.gltf" 
+              alt="Modelo 3D" 
+              auto-rotate 
+              camera-controls
+              disable-zoom 
+            ></model-viewer>
+
               <p id="tiempo"></p>
-          </div> 
       </div>
-    </div>
-    <div class="footer">
-      <a href="https://t.me/+nXOqxMNwWUdkMTlk" style="text-decoration: none;">
-        <img class="iconos" src="telegram.png">
-      </a>
-      <a href="https://x.com/SCloud88508" style="text-decoration: none;">
-        <img class="iconos" src="x.png">
-      </a>
-      <a href="" style="text-decoration: none;">
-        <img class="iconos" src="Phantom.png">
-      </a>
     </div>
     
     <div class="tpl-snow">
@@ -106,5 +101,24 @@
         }         
       }, 1000);
       </script>
-  </body>
+
+
+<div class="footer">
+  <a href="https://t.me/+nXOqxMNwWUdkMTlk" target="_blank" style="text-decoration: none;">
+    <img class="iconos" src="telegram.png">
+  </a>
+  <a href="https://x.com/SCloud88508" target="_blank" style="text-decoration: none;">
+    <img class="iconos" src="x.png">
+  </a>
+  <a href="https://pump.fun/coin/JC8JouoBgW4i6hi3hxdX9x9NYe3ZXi7kLeiP12ibpump" target="_blank" style="text-decoration: none;">
+    <img class="iconos" src="Phantom.png">
+  </a>
+  <a href="https://pump.fun/coin/JC8JouoBgW4i6hi3hxdX9x9NYe3ZXi7kLeiP12ibpump" target="_blank" style="text-decoration: none;">
+    <img class="iconos" src="solscan.png">
+  </a>
+</div>
+
+</body>
+  
 </html>
+
