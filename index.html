@@ -11,16 +11,28 @@
   </head>
   <body>
     <div class="fondo"></div>
-    <div class="context">
+   
+    <div class="context" >
       <div class="contenedorPrincipal">
           <div class="contenido">
               <h1 > See you soon...</h1>
-              <a href="https://x.com/SCloud88508" target="_blank">
+              <a href="https://x.com/SCloud88508">
                 <img class="imgSanta" src="santacloud.png" alt="Foto SantaCloud">
               </a>
               <p id="tiempo"></p>
           </div> 
       </div>
+    </div>
+    <div class="footer">
+      <a href="https://t.me/+nXOqxMNwWUdkMTlk" style="text-decoration: none;">
+        <img class="iconos" src="telegram.png">
+      </a>
+      <a href="https://x.com/SCloud88508" style="text-decoration: none;">
+        <img class="iconos" src="x.png">
+      </a>
+      <a href="" style="text-decoration: none;">
+        <img class="iconos" src="Phantom.png">
+      </a>
     </div>
     
     <div class="tpl-snow">
@@ -90,7 +102,7 @@
         var seconds = Math.floor((distancia % (1000 * 60)) / 1000).toLocaleString(undefined,{minimumIntegerDigits: 2});
           
         document.getElementById("tiempo").innerHTML = days + "d  " + hours + "h  "+ minutes + "m  " + seconds + "s  ";
-        if(days <= 0){
+        if(days == 0 && hours == 0 && minutes == 0 && seconds == 0){
           anno += 1
         }         
       }, 1000);
